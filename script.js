@@ -57,7 +57,6 @@ function handleOperator(value) {
     inputString = previousAnswer;
   }
   inputString += value;
-  // console.log(`handled operation ${value}`);
   return;
 }
 
