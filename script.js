@@ -53,11 +53,11 @@ function handleNumber(value) {
 }
 
 function handleOperator(value) {
-  // if (inputString === '0') {
-  //   inputString = previousAnswer;
-  // }
+  if (inputString === '0') {
+    inputString = previousAnswer;
+  }
   inputString += value;
-  console.log(`handled operation ${value}`);
+  // console.log(`handled operation ${value}`);
   return;
 }
 
